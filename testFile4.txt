@@ -1,0 +1,53 @@
+%NProc=8
+%mem=424000000
+#G3B3
+
+buta23
+Butane, 2,3-dimethyl-
+casno=79298
+state=1
+config=1
+method=64
+basis=0
+
+0 1
+C
+C 1 rcc1
+H 1 rh1 2 ah1
+H 2 rh1 1 ah1 3 180.0
+C 1 rcc2 2 acc2 3 dc2
+C 1 rcc2 2 acc2 3 -dc2
+C 2 rcc2 1 acc2 4 dc2
+C 2 rcc2 1 acc2 4 -dc2
+H 5 rh2 1 ah2 3 dh2
+H 6 rh2 1 ah2 3 -dh2
+H 7 rh2 2 ah2 4 dh2
+H 8 rh2 2 ah2 4 -dh2
+H 5 rh3 1 ah3 9 dh3
+H 5 rh4 1 ah4 9 -dh4
+H 6 rh3 1 ah3 10 -dh3
+H 6 rh4 1 ah4 10 dh4
+H 7 rh3 2 ah3 11 dh3
+H 7 rh4 2 ah4 11 -dh4
+H 8 rh3 2 ah3 12 -dh3
+H 8 rh4 2 ah4 12 dh4
+
+rcc1 1.5413
+rh1 1.1178
+rcc2 1.5214
+rh2 1.0985
+rh3 1.097
+rh4 1.1022
+ah1 107.7387
+acc2 111.0634
+ah2 111.713
+ah3 111.3076
+ah4 110.9673
+dc2 118.9626
+dh2 186.4341
+dh3 120.1862
+dh4 119.5162
+
+
+
+
