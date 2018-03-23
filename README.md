@@ -2,7 +2,7 @@
 
 A python script to fetch various input and output [Gaussian] files of Computational Chemistry calculations from NIST database.
 
-The script fetches input files for 'C6H14' (2nd molecule :G3B3) from https://cccbdb.nist.gov/gaufiles1.asp and stores one of the logfile in txt format.
+The hardcoded script fetches input files for 'C6H14' (2nd molecule) from https://cccbdb.nist.gov/gaufiles1.asp and stores one of the logfile(G3B3) in txt format.
 
 Futher features being worked upon :
 1. Feeding a dictionary of molecules
